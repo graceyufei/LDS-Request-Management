@@ -48,19 +48,4 @@ contract Connector {
     function retrieveInstitutionDataConciergeAddress(string memory institutionName) external view returns(address){
         return Institution(institutionName2address[institutionName]).retrieveDataConciergeAddress();
     }
-
-
-    // function retrieveDatasets() external view returns(string[] memory){
-    //     string[] memory output = new string[](50);
-    //     uint count = 0;
-    //     for (uint i = 0; i < institutions.length; i++){
-    //         Institution institution = Institution(institutionName2address[institutions[i]]);
-    //         string[] memory temp = institution.retrieveDatasets();
-    //         for (uint j = 0; j < temp.length; j++){
-    //             output[count] = temp[j];
-    //             count++;
-    //         }
-    //     }
-    //     return output;
-    // }
 }

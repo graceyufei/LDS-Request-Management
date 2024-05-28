@@ -82,14 +82,4 @@ contract PIManagement{
         return expirationTime;
     }
 
-    // -------------------------- Testings -------------------------------------------------------------------------
-
-    // function test1() external view returns(address){
-    //     return address(this);
-    // }
-
-    // function test2() external view returns(address){
-    //     return Connector(connectorAddress).retrieveInstitutionDataConciergeAddress("UCSD");
-    // }
-
 }

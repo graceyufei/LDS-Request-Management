@@ -102,38 +102,4 @@ contract Log{
         return keccak256(bytes(a)) == keccak256(bytes(b));
     }
 
-    // -------------------------- Testings -------------------------------------------------------------------------
-    // function printLog() external view returns(string memory){
-    //     bytes memory output;
-    //     for (uint i = 0; i < log.length; i++){
-    //         output = abi.encodePacked(output, entryInByte(i));
-    //     }
-    //     return string(output);
-    // }
-
-    // function testTimestamp(uint input, uint a, uint b) external pure returns(bool){
-    //     if (!(a == 0) && input < a) {
-    //         return false;
-    //     } else if (!(b== 0) && input > b) {
-    //         return false;
-    //     }
-    //     return true;
-    // }
-
-    // function testLogTimestamp(uint logIndex) external view returns(uint){
-    //     return log[logIndex].timestamp;
-    // }
-
-    // function testMapping(string memory _query) external view returns(uint[] memory){
-    //     return queryLog[bytes(_query)];
-    // }
-
-    // function testComparison(string memory a, string memory b) external pure returns(bool){
-    //     return stringComparison(a, b);
-    // }
-
-    // function testString2Uint(string memory a) external view returns(uint){
-    //     return DateTime(dateTime).string2uint(a);
-    // }
-
 }
