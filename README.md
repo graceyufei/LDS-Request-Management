@@ -1,6 +1,14 @@
 # LDS Request Management
 
 ### Example Data
+The following example data is for three institutions. Five data files are included, all in TSV format:
+
+- `Dataset.tsv`
+- `DUA.tsv`
+- `log_query.tsv`
+- `PI_request.tsv`
+- `PI.tsv`
+
 
 
 ### Deploying and Setting Up Smart Contracts on Remix IDE
